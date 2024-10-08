@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get Json Content</title>
+  <style>
+    body {
+      width: 400px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+    }
+    textarea {
+      width: 48%;
+      height: 200px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <button id="fetchJSON">Store reservations data</button>
+  <br>
+  <textarea id="accountsDone" readonly></textarea>
+  <textarea id="accountsLeft" readonly></textarea>
+  <br>
+  <button id="datatoExcel">Download final excel</button>
+  <button id="datatoAPI">Send data to API</button>
+  <script src="xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
